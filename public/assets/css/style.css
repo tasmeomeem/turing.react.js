@@ -1,0 +1,166 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: 'Nunito', sans-serif;
+	color: #212121;
+}
+
+/*Header*/
+
+.header {
+	padding-top: 20px; 
+	padding-bottom: 20px;
+}
+
+/*Nav*/
+
+.nav-link {
+	font-size: 16px;
+	color: #212121;
+}
+
+.nav-link:hover {
+	color: #212121;
+}
+
+.hero-title {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.hero-description {
+	font-size: 20px;
+}
+
+.work {
+	background-image: url(./../images/world-dark.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 150px;
+
+}
+.work-card {
+	background-color: rgba(0,0,0,.3);
+	border: none;
+	border-radius: 20px;
+	color: white;
+}
+
+.middle-title {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.combine-card {
+	border-radius: 12px;
+	background: rgba(86,168,247,.1);
+	border: none;
+	margin-bottom: 8px;
+}
+.combine-card .card-body {
+	padding: 5px;
+
+}
+
+.developer-work {
+	background-image: url(./../images/engineer.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 150px;
+}
+
+.review-card {
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 15px;
+	border: none;
+	background-position: right;
+
+}
+
+.review-card .overlay {
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+}
+
+.review-description {
+	height: 150px;
+}
+
+.news-latter {
+	background-color: #212121;
+}
+
+.footer {
+	background-color: #1e1e1e;
+}
+
+.footer-link a {
+	color: #cccccc;
+	text-decoration: none;
+	margin-bottom: 15px;
+	display: inline-block;
+	font-size: 12px;
+}
+
+.social-icon a {
+	color: #cccccc;
+	font-size: 20px;
+	margin-right: 15px;
+	padding-top: 15px;
+	display: inline-block;
+}
+
+.social-link a {
+	color: #cccccc;
+	font-size: 15px;
+	margin-right: 15px;
+	display: inline-block;
+	text-decoration: none;
+	padding-top: 15px;
+}
+
+.form {
+	box-sizing: border-box;
+	outline: none;
+	max-width: 100%;
+	width: 100%;
+	background: transparent;
+	font-size: 16px;
+	line-height: 2;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.submit-button {
+	box-sizing: border-box;
+	outline: none;
+	background: blue;
+	font-size: 16px;
+	line-height: 2;
+	border: 1px;
+	border-radius: 4px;
+}
+
+.hired-turing {
+	background: transparent linear-gradient(104deg,#1c48bf,#b93dfd) 0 0 no-repeat padding-box;
+}
+
+.silicon-valley-card .card-header {
+	background: transparent linear-gradient(104deg,#6c7bd4,#56a8f7) 0 0 no-repeat padding-box;
+	padding: 5px !important;
+}
+
+.silicon-valley-card {
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.card-profile {
+	padding-top: 40px;
+
+}
